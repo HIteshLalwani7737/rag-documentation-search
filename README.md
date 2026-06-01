@@ -189,7 +189,6 @@ Current implementation uses fixed-size chunking. For better results consider:
 
 ---
 
-## Interview Talking Points
 
 1. **Why chunk documents?** Embedding models have token limits (~8K for ada-002). Chunking also improves retrieval precision — a 500-char chunk is more semantically focused than a 10-page document.
 
